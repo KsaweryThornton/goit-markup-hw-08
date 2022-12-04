@@ -1,0 +1,25 @@
+.workers-card {
+  width: 270px;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  text-align: center;
+}
+.workers-card__names {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.workers-card__names > strong {
+  font-size: 18px;
+  line-height: 2;
+}
+
+.workers-card__positions {
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--grey-color);
+}

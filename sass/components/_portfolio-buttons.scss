@@ -1,0 +1,11 @@
+.portfolio-buttons {
+  padding-bottom: 0;
+}
+
+.portfolio-buttons__box {
+  display: flex;
+  width: var(--width);
+  padding: 0 518px 0 510px;
+  gap: 8px;
+  margin: 0;
+}

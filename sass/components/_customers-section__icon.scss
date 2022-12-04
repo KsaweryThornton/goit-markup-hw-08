@@ -1,0 +1,18 @@
+.customers-section__icon {
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--first-fill-color);
+  border-radius: 4px;
+  fill: var(--first-fill-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  transition: border var(--transition-duration) var(--cubic-bezier),
+    fill var(--transition-duration) var(--cubic-bezier);
+  &:hover {
+    border: 1px solid var(--brand-color);
+    fill: var(--brand-color);
+  }
+}

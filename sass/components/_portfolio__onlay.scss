@@ -1,0 +1,39 @@
+.portfolio__onlay {
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  height: 294px;
+  width: 100%;
+}
+
+.onlay__item {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(33, 149, 243, 0.9);
+  transform: translateY(110%);
+  transition: transform var(--transition-duration) var(--cubic-bezier);
+}
+
+.portfolio__onlay:hover .onlay__item {
+  transform: translateY(0);
+}
+
+.onlay__pharagraph {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+  margin-block: 49px;
+  width: 301px;
+  height: 196px;
+  padding: 0;
+  margin-left: 24px;
+}

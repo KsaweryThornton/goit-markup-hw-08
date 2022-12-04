@@ -1,0 +1,39 @@
+.footer__container {
+  width: 246px;
+  margin-left: 215px;
+}
+
+.container__logo {
+  width: 145px;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  color: var(--brand-color);
+  margin: 0;
+  padding: 0;
+}
+
+.container__logo > span {
+  color: var(--white-color);
+}
+
+.container__address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--white-color);
+}
+
+.container__contact {
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+  fill: var(--grey-color);
+  transition: color var(--transition-duration) var(--cubic-bezier),
+    fill var(--transition-duration) var(--cubic-bezier);
+  &:hover {
+    color: var(--brand-color);
+    fill: var(--brand-color);
+  }
+}

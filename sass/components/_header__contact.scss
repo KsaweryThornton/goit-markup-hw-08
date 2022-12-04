@@ -1,0 +1,22 @@
+.header__contact {
+  display: flex;
+  align-items: baseline;
+  gap: 50px;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.header__contact-items {
+  color: var(--grey-color);
+  fill: var(--grey-color);
+  transition: color var(--transition-duration) var(--cubic-bezier),
+    fill var(--transition-duration) var(--cubic-bezier);
+  &:hover {
+    color: var(--brand-color);
+    fill: var(--brand-color);
+  }
+}

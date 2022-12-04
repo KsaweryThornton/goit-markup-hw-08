@@ -1,0 +1,31 @@
+body {
+  font-family: var(--font-family);
+  color: var(--black-color);
+  overflow: scroll;
+}
+
+.container {
+  width: var(--width);
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+.section {
+  padding-block: 94px;
+}
+
+figure,
+figcaption {
+  margin: 0;
+  padding: 0;
+}

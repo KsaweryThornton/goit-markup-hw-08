@@ -1,0 +1,50 @@
+.form__content .checkbox__label {
+  position: static;
+}
+
+.checkbox__label input {
+  width: 20px;
+  height: 20px;
+}
+
+.checkbox__link {
+  color: var(--brand-color);
+}
+
+.checkbox__content {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--grey-color);
+  margin-inline: 54px;
+}
+
+.checkbox__span {
+  position: relative;
+}
+
+.checkbox__icon {
+  fill: transparent;
+  background-color: transparent;
+  width: 16px;
+  height: 15px;
+  position: absolute;
+  top: 1px;
+  left: -21px;
+  border-radius: 4px;
+  border: 1px solid var(--black-color);
+  cursor: pointer;
+}
+
+input:checked + span svg {
+  fill: var(--white-color);
+  background-color: var(--brand-color);
+  border: none;
+}
+
+.checkbox__input {
+  visibility: hidden;
+}

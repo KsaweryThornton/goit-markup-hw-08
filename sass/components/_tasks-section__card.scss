@@ -1,0 +1,25 @@
+.tasks-section__card {
+  position: relative;
+}
+
+.card__ovelay {
+  position: absolute;
+  top: 224px;
+  width: 370px;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.card__pharagraph {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
+  margin: 0;
+  padding-block: 27px;
+}

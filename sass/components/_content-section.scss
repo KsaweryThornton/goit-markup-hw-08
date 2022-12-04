@@ -1,0 +1,12 @@
+.content-section {
+  padding-bottom: 0;
+}
+
+.content-section__wrapper {
+  display: flex;
+  width: var(--width);
+  padding-inline: 215px;
+  gap: 30px;
+  justify-content: space-between;
+  margin: 0;
+}

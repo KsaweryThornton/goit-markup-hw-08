@@ -1,0 +1,18 @@
+.header__logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--brand-color);
+  transition: color var(--transition-duration) var(--cubic-bezier);
+  &:hover {
+    color: var(--black-color);
+  }
+}
+
+.header__logo-span {
+  color: var(--black-color);
+  transition: color var(--transition-duration) var(--cubic-bezier);
+  &:hover {
+    color: var(--brand-color);
+  }
+}

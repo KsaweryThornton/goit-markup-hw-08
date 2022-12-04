@@ -1,0 +1,93 @@
+.form__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--black-color);
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.form__content {
+  height: 501px;
+}
+
+.form__fieldset {
+  display: flex;
+  position: relative;
+  padding: 0;
+  border-radius: 4px;
+  margin-block: 28px;
+  margin-inline: 40px;
+  width: 448px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+}
+
+.form__content .form__label {
+  position: absolute;
+  top: -18px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: var(--grey-color);
+}
+
+.form__content .form__icon {
+  width: 18px;
+  height: 18px;
+  margin-block: 11px;
+  margin-inline: 14px;
+  fill: var(--black-color);
+}
+
+.form__content .form__input {
+  border: 0;
+  background-color: transparent;
+  font-size: 12px;
+  padding: 0;
+}
+
+.form__content .form__input:focus {
+  outline: 0;
+}
+
+.form__fieldset:has(input:focus) {
+  border-color: var(--brand-color);
+}
+
+.form__fieldset:has(input:focus) .form__icon {
+  fill: var(--brand-color);
+}
+
+.form__comment-fieldset {
+  height: 120px;
+  position: relative;
+}
+
+.form__comment-textarea {
+  position: absolute;
+  margin-block: 12px;
+  margin-inline: 16px;
+  width: 416px;
+  height: 96px;
+  resize: none;
+  &::placeholder {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+  }
+}
+
+.form__fieldset:has(textarea:focus) {
+  border-color: var(--brand-color);
+}

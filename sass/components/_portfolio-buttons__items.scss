@@ -1,0 +1,38 @@
+.portfolio-buttons__items {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  color: var(--black-color);
+  background-color: #f5f4fa;
+  border: none;
+  border-radius: 4px;
+  height: 38px;
+  transition: color var(--transition-duration) var(--cubic-bezier),
+    background-color var(--transition-duration) var(--cubic-bezier),
+    box-shadow var(--transition-duration) var(--cubic-bezier);
+  &:hover {
+    color: var(--white-color);
+    background-color: var(--brand-color);
+    box-shadow: 2px 2px 10px #000;
+  }
+}
+
+.portfolio-buttons__items--first {
+  width: 121px;
+}
+
+.portfolio-buttons__items--second {
+  width: 93px;
+}
+
+.portfolio-buttons__items--third {
+  width: 114px;
+}
+
+.portfolio-buttons__items--fourth {
+  width: 91px;
+}
+
+.portfolio-buttons__items--fifth {
+  width: 121px;
+}

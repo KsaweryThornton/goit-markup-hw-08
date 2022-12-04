@@ -1,0 +1,9 @@
+.portfolio__items {
+  border-bottom: 1px solid #e5e5e5;
+  margin: 0;
+  width: calc((100% - 60px) / 3);
+  transition: box-shadow var(--transition-duration) var(--cubic-bezier);
+  &:hover {
+    box-shadow: 4px 4px 10px #000;
+  }
+}
