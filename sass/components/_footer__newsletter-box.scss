@@ -1,7 +1,21 @@
+.newsletter {
+  @media screen and (max-width: 480px) {
+    width: 100%;
+    text-align: center;
+  }
+}
+
 .newsletter__box {
   display: flex;
   justify-content: flex-start;
   gap: 2%;
+  @media screen and (max-width: 480px) {
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
 }
 
 .box__input {
@@ -20,6 +34,9 @@
     font-size: 16px;
     line-height: 20px;
     color: rgba(255, 255, 255, 0.6);
+  }
+  @media screen and (max-width: 480px) {
+    width: 100%;
   }
 }
 

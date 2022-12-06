@@ -8,4 +8,18 @@
     url(../images/banner_image_1600_600.jpg);
   background-size: cover;
   padding: 0;
+  @media screen and (max-width: 480px) {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.2),
+        rgba(0, 0, 0, 0.6)
+      ),
+      url("../../images/banner_image_480_400.jpg");
+  }
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.2),
+        rgba(0, 0, 0, 0.6)
+      ),
+      url("../../images/banner_image_768_400.jpg");
+  }
 }

@@ -1,5 +1,8 @@
 .content-section {
   padding-bottom: 0;
+  @media screen and (max-width: 480px) {
+    padding-block: 60px;
+  }
 }
 
 .content-section__wrapper {
@@ -9,4 +12,11 @@
   gap: 2%;
   margin: 0;
   justify-content: space-between;
+  @media screen and (max-width: 480px) {
+    flex-direction: column;
+    padding-inline: 2%;
+  }
+  // @media screen and (min-width: 481px) and (max-width: 1200px) {
+  //   flex-grow: 0;
+  // }
 }

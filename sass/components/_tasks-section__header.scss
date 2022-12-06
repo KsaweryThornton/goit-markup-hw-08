@@ -1,3 +1,11 @@
+.task-section {
+  padding-block: 94px;
+  @media screen and (max-width: 480px) {
+    margin: 0;
+    padding: 0;
+  }
+}
+
 .tasks-section__header {
   font-size: 36px;
   line-height: 1.17;
@@ -5,4 +13,7 @@
   margin-bottom: 50px;
   margin-inline: auto;
   width: 352px;
+  @media screen and (max-width: 480px) {
+    display: none;
+  }
 }

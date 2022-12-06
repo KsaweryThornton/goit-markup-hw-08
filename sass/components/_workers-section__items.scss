@@ -6,4 +6,25 @@
   margin: 0;
   justify-content: space-between;
   align-items: center;
+  @media screen and (max-width: 480px) {
+    display: none;
+  }
+}
+
+.workers-section__items2 {
+  display: none;
+}
+
+.workers-section__items3 {
+  display: none;
+  @media screen and (max-width: 480px) {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-inline: 2%;
+    gap: 30px;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+  }
 }

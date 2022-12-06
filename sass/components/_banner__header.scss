@@ -1,10 +1,19 @@
 .banner__header {
+  width: 696px;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36;
+  line-height: 60px;
   color: var(--white-color);
-  width: 696px;
   text-align: center;
   text-transform: uppercase;
-  margin: 200px 452px 30px 452px;
+  margin-inline: auto;
+  margin-block: 200px 30px;
+  font-family: "Roboto";
+  font-style: normal;
+  letter-spacing: 0.06em;
+  @media screen and (max-width: 768px) {
+    width: 365px;
+    font-size: 26px;
+    line-height: 42px;
+  }
 }

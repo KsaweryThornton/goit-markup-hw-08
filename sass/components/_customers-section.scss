@@ -1,0 +1,60 @@
+.customers-section {
+  padding-block: 94px;
+  @media screen and (max-width: 480px) {
+    padding-block: 60px;
+  }
+}
+
+.customers-section__title {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--black-color);
+  padding-bottom: 50px;
+  margin: 0;
+  @media screen and (max-width: 480px) {
+    height: 33px;
+    font-size: 28px;
+    line-height: 33px;
+  }
+}
+
+.customers-section__card {
+  display: flex;
+  width: 100%;
+  gap: 2%;
+  padding-inline: 10%;
+  justify-content: space-between;
+  @media screen and (max-width: 480px) {
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-inline: 2%;
+  }
+}
+
+.customers-section__icon {
+  width: 100%;
+  height: 92px;
+  object-fit: cover;
+  border: 1px solid var(--first-fill-color);
+  border-radius: 4px;
+  fill: var(--first-fill-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  transition: border var(--transition-duration) var(--cubic-bezier),
+    fill var(--transition-duration) var(--cubic-bezier);
+  &:hover {
+    border: 1px solid var(--brand-color);
+    fill: var(--brand-color);
+  }
+  @media screen and (max-width: 480px) {
+    flex-basis: calc((100% - 30px) / 2);
+  }
+}

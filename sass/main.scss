@@ -2,8 +2,7 @@
 @import "./utils/global";
 @import "./components/header";
 @import "./components/header__logo";
-@import "./components/header__navigation";
-@import "./components/header__contact";
+@import "./components/header__navigation-contact";
 @import "./components/banner";
 @import "./components/banner__header";
 @import "./components/banner__button";
@@ -28,9 +27,7 @@
 @import "./components/workers-section__card";
 @import "./components/workers-section__img";
 @import "./components/workers-section__sm-icons";
-@import "./components/customers-section__title";
-@import "./components/customers-section__card";
-@import "./components/customers-section__icon";
+@import "./components/customers-section";
 @import "./components/footer";
 @import "./components/footer__container";
 @import "./components/footer__sm";

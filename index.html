@@ -19,40 +19,37 @@
   </head>
   <body>
     <header class="header">
-      <div class="mobile-menu display-none">
-        <button class="toggle-menu">X</button>
-      </div>
       <a class="header__logo" href="#"
         >Web<span class="header__logo-span">Studio</span></a
       >
-      <nav class="header__navigation">
-        <ul class="header__menu">
-          <li>
+      <div class="header__navigation-contact">
+        <nav class="header__navigation">
+          <div class="header__menu">
             <a class="header__menu-items header__menu-first-item" href="#"
               >Agencja</a
             >
-          </li>
-          <li>
             <a class="header__menu-items" href="./portfolio.html">Portfolio</a>
+            <a class="header__menu-items" href="#">Kontakt</a>
+          </div>
+        </nav>
+        <ul class="header__contact">
+          <li>
+            <a class="header__contact-items" href="mailto:info@devstudio.com">
+              <svg width="16" height="12">
+                <use href="./images/icons.svg#envelope-icon"></use>
+              </svg>
+              info@devstudio.com</a
+            >
           </li>
           <li>
-            <a class="header__menu-items" href="#">Kontakt</a>
+            <a class="header__contact-items" href="tel:+48111111111">
+              <svg width="10" height="16">
+                <use href="./images/icons.svg#phone-icon"></use>
+              </svg>
+              +48 111 111 111</a
+            >
           </li>
         </ul>
-      </nav>
-      <div class="header__contact">
-        <a class="header__contact-items" href="mailto:info@devstudio.com">
-          <svg width="16" height="12">
-            <use href="./images/icons.svg#envelope-icon"></use>
-          </svg>
-          info@devstudio.com</a
-        >
-        <a class="header__contact-items" href="tel:+48111111111">
-          <svg width="10" height="16">
-            <use href="./images/icons.svg#phone-icon"></use>
-          </svg>
-          +48 111 111 111</a
-        >
       </div>
     </header>
     <main>
@@ -140,8 +137,7 @@
             <h4 class="content-section__header">LOREM IPSUM</h4>
             <p class="content-section__pharagraph">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed<br />
-              non sodales dui. Interdum et malesuada
+              arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
           <li class="content-section__text-items">
@@ -153,8 +149,7 @@
             <h4 class="content-section__header">LOREM IPSUM</h4>
             <p class="content-section__pharagraph">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed<br />
-              non sodales dui. Interdum et malesuada
+              arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
           <li class="content-section__text-items">
@@ -166,7 +161,7 @@
             <h4 class="content-section__header">LOREM IPSUM</h4>
             <p class="content-section__pharagraph">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed <br />non sodales dui. Interdum et malesuada
+              arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
           <li class="content-section__text-items">
@@ -178,13 +173,12 @@
             <h4 class="content-section__header">LOREM IPSUM</h4>
             <p class="content-section__pharagraph">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed<br />
-              non sodales dui. Interdum et malesuada
+              arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
         </ul>
       </section>
-      <section class="section tasks-section">
+      <section class="tasks-section">
         <h2 class="tasks-section__header">Czym się zajmujemy</h2>
         <ul class="tasks-section__items">
           <li class="tasks-section__card">
@@ -367,8 +361,300 @@
             </div>
           </li>
         </ul>
+        <ul class="workers-section__items2">
+          <li class="workers-card">
+            <figure>
+              <img
+                class="workers-card__img"
+                src="./images/firstjohndoe_354_374.jpg"
+                alt="Uśmiechnięty mężczyzna z brodą i w okularach"
+                height="260"
+              />
+              <figcaption>
+                <p class="workers-card__names"><strong>John Doe</strong></p>
+                <p class="workers-card__positions">Product Designer</p>
+              </figcaption>
+            </figure>
+            <div class="sm-icons">
+              <div class="sm-icons__item">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#instagram-icon"></use>
+                </svg>
+              </div>
+              <div class="sm-icons__item">
+                <svg width="20" height="16.25">
+                  <use href="./images/icons.svg#twitter-icon"></use>
+                </svg>
+              </div>
+              <div class="sm-icons__item">
+                <svg width="10" height="20">
+                  <use href="./images/icons.svg#facebook-icon"></use>
+                </svg>
+              </div>
+              <div class="sm-icons__item">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#linkedin-icon"></use>
+                </svg>
+              </div>
+            </div>
+          </li>
+          <li class="workers-card">
+            <figure>
+              <img
+                class="workers-card__img"
+                src="./images/secondjohndoe_354_374.jpg"
+                alt="Uśmiechnięta kobieta w okularach"
+                height="260"
+              />
+              <figcaption>
+                <p class="workers-card__names"><strong>John Doe</strong></p>
+                <p class="workers-card__positions">Frontend Developer</p>
+              </figcaption>
+            </figure>
+            <div class="sm-icons">
+              <div class="sm-icons__item">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#instagram-icon"></use>
+                </svg>
+              </div>
+              <div class="sm-icons__item">
+                <svg width="20" height="16.25">
+                  <use href="./images/icons.svg#twitter-icon"></use>
+                </svg>
+              </div>
+              <div class="sm-icons__item">
+                <svg width="10" height="20">
+                  <use href="./images/icons.svg#facebook-icon"></use>
+                </svg>
+              </div>
+              <div class="sm-icons__item">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#linkedin-icon"></use>
+                </svg>
+              </div>
+            </div>
+          </li>
+          <li class="workers-card">
+            <figure>
+              <img
+                class="workers-card__img"
+                src="./images/thirdjohndoe_354_374.jpg"
+                alt="Uśmiechnięty mężczyzna w jasnej koszuli"
+                height="260"
+              />
+              <figcaption>
+                <p class="workers-card__names"><strong>John Doe</strong></p>
+                <p class="workers-card__positions">Marketing</p>
+              </figcaption>
+            </figure>
+            <div class="sm-icons">
+              <div class="sm-icons__item">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#instagram-icon"></use>
+                </svg>
+              </div>
+              <div class="sm-icons__item">
+                <svg width="20" height="16.25">
+                  <use href="./images/icons.svg#twitter-icon"></use>
+                </svg>
+              </div>
+              <div class="sm-icons__item">
+                <svg width="10" height="20">
+                  <use href="./images/icons.svg#facebook-icon"></use>
+                </svg>
+              </div>
+              <div class="sm-icons__item">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#linkedin-icon"></use>
+                </svg>
+              </div>
+            </div>
+          </li>
+          <li class="workers-card">
+            <figure>
+              <img
+                class="workers-card__img"
+                src="./images/fourthjohndoe_354_374.jpg"
+                alt="Zadowolony mężczyzna z brodą i w okularach, pozujący na tle budynków"
+                height="260"
+              />
+              <figcaption>
+                <p class="workers-card__names"><strong>John Doe</strong></p>
+                <p class="workers-card__positions">UI Designer</p>
+              </figcaption>
+            </figure>
+            <div class="sm-icons">
+              <div class="sm-icons__item">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#instagram-icon"></use>
+                </svg>
+              </div>
+              <div class="sm-icons__item">
+                <svg width="20" height="16.25">
+                  <use href="./images/icons.svg#twitter-icon"></use>
+                </svg>
+              </div>
+              <div class="sm-icons__item">
+                <svg width="10" height="20">
+                  <use href="./images/icons.svg#facebook-icon"></use>
+                </svg>
+              </div>
+              <div class="sm-icons__item">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#linkedin-icon"></use>
+                </svg>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <ul class="workers-section__items3">
+          <li class="workers-card">
+            <figure>
+              <img
+                class="workers-card__img"
+                src="./images/firstjohndoe_450_460.jpg"
+                alt="Uśmiechnięty mężczyzna z brodą i w okularach"
+                height="260"
+              />
+              <figcaption>
+                <p class="workers-card__names"><strong>John Doe</strong></p>
+                <p class="workers-card__positions">Product Designer</p>
+              </figcaption>
+            </figure>
+            <div class="sm-icons">
+              <div class="sm-icons__item">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#instagram-icon"></use>
+                </svg>
+              </div>
+              <div class="sm-icons__item">
+                <svg width="20" height="16.25">
+                  <use href="./images/icons.svg#twitter-icon"></use>
+                </svg>
+              </div>
+              <div class="sm-icons__item">
+                <svg width="10" height="20">
+                  <use href="./images/icons.svg#facebook-icon"></use>
+                </svg>
+              </div>
+              <div class="sm-icons__item">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#linkedin-icon"></use>
+                </svg>
+              </div>
+            </div>
+          </li>
+          <li class="workers-card">
+            <figure>
+              <img
+                class="workers-card__img"
+                src="./images/secondjohndoe_450_460.jpg"
+                alt="Uśmiechnięta kobieta w okularach"
+                height="260"
+              />
+              <figcaption>
+                <p class="workers-card__names"><strong>John Doe</strong></p>
+                <p class="workers-card__positions">Frontend Developer</p>
+              </figcaption>
+            </figure>
+            <div class="sm-icons">
+              <div class="sm-icons__item">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#instagram-icon"></use>
+                </svg>
+              </div>
+              <div class="sm-icons__item">
+                <svg width="20" height="16.25">
+                  <use href="./images/icons.svg#twitter-icon"></use>
+                </svg>
+              </div>
+              <div class="sm-icons__item">
+                <svg width="10" height="20">
+                  <use href="./images/icons.svg#facebook-icon"></use>
+                </svg>
+              </div>
+              <div class="sm-icons__item">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#linkedin-icon"></use>
+                </svg>
+              </div>
+            </div>
+          </li>
+          <li class="workers-card">
+            <figure>
+              <img
+                class="workers-card__img"
+                src="./images/thirdjohndoe_450_460.jpg"
+                alt="Uśmiechnięty mężczyzna w jasnej koszuli"
+                height="260"
+              />
+              <figcaption>
+                <p class="workers-card__names"><strong>John Doe</strong></p>
+                <p class="workers-card__positions">Marketing</p>
+              </figcaption>
+            </figure>
+            <div class="sm-icons">
+              <div class="sm-icons__item">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#instagram-icon"></use>
+                </svg>
+              </div>
+              <div class="sm-icons__item">
+                <svg width="20" height="16.25">
+                  <use href="./images/icons.svg#twitter-icon"></use>
+                </svg>
+              </div>
+              <div class="sm-icons__item">
+                <svg width="10" height="20">
+                  <use href="./images/icons.svg#facebook-icon"></use>
+                </svg>
+              </div>
+              <div class="sm-icons__item">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#linkedin-icon"></use>
+                </svg>
+              </div>
+            </div>
+          </li>
+          <li class="workers-card">
+            <figure>
+              <img
+                class="workers-card__img"
+                src="./images/fourthjohndoe_450_460.jpg"
+                alt="Zadowolony mężczyzna z brodą i w okularach, pozujący na tle budynków"
+                height="260"
+              />
+              <figcaption>
+                <p class="workers-card__names"><strong>John Doe</strong></p>
+                <p class="workers-card__positions">UI Designer</p>
+              </figcaption>
+            </figure>
+            <div class="sm-icons">
+              <div class="sm-icons__item">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#instagram-icon"></use>
+                </svg>
+              </div>
+              <div class="sm-icons__item">
+                <svg width="20" height="16.25">
+                  <use href="./images/icons.svg#twitter-icon"></use>
+                </svg>
+              </div>
+              <div class="sm-icons__item">
+                <svg width="10" height="20">
+                  <use href="./images/icons.svg#facebook-icon"></use>
+                </svg>
+              </div>
+              <div class="sm-icons__item">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#linkedin-icon"></use>
+                </svg>
+              </div>
+            </div>
+          </li>
+        </ul>
       </section>
-      <section class="container customers-section">
+      <section class="customers-section">
         <h2 class="customers-section__title">Nasi klienci</h2>
         <div class="customers-section__card">
           <div class="customers-section__icon">
@@ -474,6 +760,5 @@
       </div>
     </footer>
     <script src="./js/modal.js"></script>
-    <script src="./js/menu.js"></script>
   </body>
 </html>
