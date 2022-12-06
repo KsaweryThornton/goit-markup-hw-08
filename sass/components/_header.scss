@@ -1,9 +1,10 @@
 .header {
   display: flex;
-  width: var(--width);
-  justify-content: space-between;
-  padding-inline: 215px;
+  width: 80%;
+  height: 80px;
+  margin-inline: 10%;
   padding-block: 24px;
+  justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #e5e5e5;
 }

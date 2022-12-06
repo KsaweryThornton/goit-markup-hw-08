@@ -9,7 +9,7 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.css"
       rel="stylesheet"
     />
-    <link href="./css/main.css" rel="stylesheet" />
+    <link href="./css/main.min.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,6 +19,9 @@
   </head>
   <body>
     <header class="header">
+      <div class="mobile-menu display-none">
+        <button class="toggle-menu">X</button>
+      </div>
       <a class="header__logo" href="#"
         >Web<span class="header__logo-span">Studio</span></a
       >
@@ -186,10 +189,9 @@
         <ul class="tasks-section__items">
           <li class="tasks-section__card">
             <img
+              class="task-section__img"
               src="./images/img1.jpg"
               alt="Osoba pisząca kod"
-              width="370"
-              height="294"
             />
             <div class="card__ovelay">
               <p class="card__pharagraph">Aplikacje komputerowe</p>
@@ -197,10 +199,9 @@
           </li>
           <li class="tasks-section__card">
             <img
+              class="task-section__img"
               src="./images/img2.jpg"
               alt="Osoba trzymająca telefon, siedząca przy komputerze"
-              width="370"
-              height="294"
             />
             <div class="card__ovelay">
               <p class="card__pharagraph">Aplikacje mobilne</p>
@@ -208,12 +209,11 @@
           </li>
           <li class="tasks-section__card">
             <img
+              class="task-section__img"
               src="./images/img3.jpg"
               alt="Osoba trzymająca tablet z wyświetloną paletą kolorów"
-              width="370"
-              height="294"
             />
-            <div class="card__ovelay" width="width" height="70">
+            <div class="card__ovelay">
               <p class="card__pharagraph">Rozwiązania graficzne</p>
             </div>
           </li>
@@ -225,10 +225,10 @@
           <li class="workers-card">
             <figure>
               <img
-                src="./images/img4.jpg"
+                class="workers-card__img"
+                src="./images/firstjohndoe_270_260.jpg"
                 alt="Uśmiechnięty mężczyzna z brodą i w okularach"
                 height="260"
-                width="270"
               />
               <figcaption>
                 <p class="workers-card__names"><strong>John Doe</strong></p>
@@ -261,10 +261,10 @@
           <li class="workers-card">
             <figure>
               <img
-                src="./images/img5.jpg"
+                class="workers-card__img"
+                src="./images/secondjohndoe_270_260.jpg"
                 alt="Uśmiechnięta kobieta w okularach"
                 height="260"
-                width="270"
               />
               <figcaption>
                 <p class="workers-card__names"><strong>John Doe</strong></p>
@@ -297,10 +297,10 @@
           <li class="workers-card">
             <figure>
               <img
-                src="./images/img6.jpg"
+                class="workers-card__img"
+                src="./images/thirdjohndoe_270_260.jpg"
                 alt="Uśmiechnięty mężczyzna w jasnej koszuli"
                 height="260"
-                width="270"
               />
               <figcaption>
                 <p class="workers-card__names"><strong>John Doe</strong></p>
@@ -333,10 +333,10 @@
           <li class="workers-card">
             <figure>
               <img
-                src="./images/img7.jpg"
+                class="workers-card__img"
+                src="./images/fourthjohndoe_270_260.jpg"
                 alt="Zadowolony mężczyzna z brodą i w okularach, pozujący na tle budynków"
                 height="260"
-                width="270"
               />
               <figcaption>
                 <p class="workers-card__names"><strong>John Doe</strong></p>
@@ -474,5 +474,6 @@
       </div>
     </footer>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

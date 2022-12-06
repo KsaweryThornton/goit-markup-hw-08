@@ -3,7 +3,6 @@
 @import "./components/header";
 @import "./components/header__logo";
 @import "./components/header__navigation";
-@import "./components/header__menu";
 @import "./components/header__contact";
 @import "./components/banner";
 @import "./components/banner__header";
@@ -21,11 +20,13 @@
 @import "./components/content-section__pharagraph";
 @import "./components/tasks-section__header";
 @import "./components/tasks-section__items";
+@import "./components/task-section__img";
 @import "./components/tasks-section__card";
 @import "./components/workers-section";
 @import "./components/workers-section__header";
 @import "./components/workers-section__items";
 @import "./components/workers-section__card";
+@import "./components/workers-section__img";
 @import "./components/workers-section__sm-icons";
 @import "./components/customers-section__title";
 @import "./components/customers-section__card";
@@ -41,3 +42,5 @@
 @import "./components/portfolio__items";
 @import "./components/portfolio__onlay";
 @import "./components/portfolio__figcaption";
+@import "./components/mobile-menu";
+@import "./utils/display-none";

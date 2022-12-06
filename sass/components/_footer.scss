@@ -1,18 +1,13 @@
 footer {
-  width: var(--width);
+  width: 100%;
+  padding-inline: 10%;
   padding-block: 60px;
   background-color: var(--first-background-color);
 }
 
 .footer {
   display: flex;
-  gap: 70px;
+  gap: 2%;
+  justify-content: space-between;
   align-items: baseline;
-}
-
-.footer-box {
-  display: flex;
-  flex-direction: column;
-  gap: 9px;
-  margin-top: 20px;
 }

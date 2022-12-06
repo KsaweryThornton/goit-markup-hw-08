@@ -20,7 +20,8 @@
 .sm-footer__icons {
   display: flex;
   justify-content: space-between;
-  width: 206px;
+  width: 100%;
+  gap: 5px;
 }
 
 .sm-footer__icons--item {
