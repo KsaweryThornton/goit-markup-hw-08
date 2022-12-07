@@ -1,6 +1,6 @@
 .content-section {
   padding-bottom: 0;
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 1199px) {
     padding-block: 60px;
   }
 }
@@ -16,7 +16,8 @@
     flex-direction: column;
     padding-inline: 2%;
   }
-  // @media screen and (min-width: 481px) and (max-width: 1200px) {
-  //   flex-grow: 0;
-  // }
+  @media screen and (min-width: 481px) and (max-width: 1199px) {
+    flex-wrap: wrap;
+    padding-inline: 2%;
+  }
 }

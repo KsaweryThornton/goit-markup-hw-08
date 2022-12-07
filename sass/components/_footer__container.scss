@@ -6,7 +6,7 @@
   color: var(--brand-color);
   margin: 0;
   padding: 0;
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 1199px) {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
@@ -22,7 +22,7 @@
   font-size: 14px;
   line-height: 1.71;
   color: var(--white-color);
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 1199px) {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,7 +41,7 @@
   &:hover {
     color: var(--brand-color);
     fill: var(--brand-color);
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 1199px) {
       text-align: center;
     }
   }

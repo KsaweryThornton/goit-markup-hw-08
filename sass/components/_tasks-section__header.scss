@@ -1,6 +1,6 @@
 .tasks-section {
   padding-block: 94px;
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 1199px) {
     margin: 0;
     padding: 0;
   }
@@ -13,7 +13,7 @@
   margin-bottom: 50px;
   margin-inline: auto;
   width: 352px;
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 1199px) {
     display: none;
   }
 }

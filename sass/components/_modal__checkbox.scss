@@ -1,5 +1,17 @@
 .form__content .checkbox__label {
   position: static;
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+    width: 370px;
+    margin-inline: 10%;
+    padding: 0;
+    text-align: center;
+  }
+  @media screen and (min-width: 481px) and (max-width: 1199px) {
+    width: 100%;
+    padding-inline: 10%;
+    margin: 0;
+    text-align: center;
+  }
 }
 
 .checkbox__label input {
@@ -20,6 +32,10 @@
   letter-spacing: 0.03em;
   color: var(--grey-color);
   margin-inline: 54px;
+  @media screen and (max-width: 1199px) {
+    font-size: 12px;
+    line-height: 14px;
+  }
 }
 
 .checkbox__span {

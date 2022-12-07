@@ -7,7 +7,11 @@
   margin: auto;
   position: relative;
   z-index: 2;
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 480px) {
+    width: 96%;
+    margin-inline: 2%;
+  }
+  @media screen and (min-width: 481px) and (max-width: 1199px) {
     width: 450px;
   }
 }

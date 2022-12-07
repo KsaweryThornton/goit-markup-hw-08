@@ -8,6 +8,9 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   text-align: center;
+  @media screen and (min-width: 481px) and (max-width: 1199px) {
+    flex-basis: calc((100% - 30px) / 2);
+  }
 }
 .workers-card__names {
   font-size: 16px;
