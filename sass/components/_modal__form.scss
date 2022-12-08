@@ -18,9 +18,6 @@
 
 .form__content {
   height: 501px;
-  @media screen and (max-width: 1199px) {
-    height: auto;
-  }
 }
 
 .form__fieldset {

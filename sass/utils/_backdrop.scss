@@ -6,6 +6,6 @@
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
-  transition: transform 0.15s;
+  transition: transform var(--transition-duration) var(--cubic-bezier);
   z-index: 2;
 }
