@@ -1,10 +1,6 @@
 .workers-card__img {
   width: 100%;
   object-fit: cover;
-  @media screen and (max-width: 480px) {
-    height: 460px;
-  }
-  @media screen and (min-width: 481px) and (max-width: 1199px) {
-    height: 374px;
-  }
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
 }

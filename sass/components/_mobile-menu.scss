@@ -38,8 +38,8 @@
   transition: transform var(--transition-duration) var(--cubic-bezier);
   z-index: 2;
   margin: 0;
-  padding-block: 50px;
-  padding-inline: 40px;
+  padding-block: 10%;
+  padding-left: 5%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
